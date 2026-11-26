@@ -3,7 +3,12 @@
     "details": [
       {
         "appIDs": ["G4GD472C7G.com.groundandpound.app"],
-        "components": [{ "/": "/ami/*", "comment": "Liens d'invitation entre amis" }, { "/": "/ami" }]
+        "components": [
+          { "/": "/ami/*", "comment": "Liens d'invitation entre amis" },
+          { "/": "/ami" },
+          { "/": "/ligue/*", "comment": "Liens pour rejoindre une ligue" },
+          { "/": "/ligue" }
+        ]
       }
     ]
   }
